@@ -1,0 +1,142 @@
+<!--<!doctype html>-->
+<!--<html lang=ko>-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--    <style>-->
+<!--        /*구체성의 원칙(Specificity: 명시도): red 적용*/-->
+<!--        div.hello-div {-->
+<!--            color: red;-->
+<!--        }-->
+
+<!--        /*후자 우선의 원칙: green이 적용됨*/-->
+<!--        div {-->
+<!--            color: blue;-->
+<!--        }-->
+
+<!--        div {-->
+<!--            color: green;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div class="hello-div">-->
+<!--    hello-->
+<!--</div>-->
+<!--</body>-->
+<!--</html>-->
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--  <style>-->
+<!--    body div.hello-div{-->
+<!--      color: blue;-->
+<!--    }-->
+<!--    /*div{*/-->
+
+<!--    /*}*/-->
+
+<!--    div#helloDiv{-->
+<!--      color:green;-->
+<!--    }-->
+
+<!--    div #id{-->
+<!--      color:green;-->
+<!--    }-->
+<!--    p{-->
+<!--      color:black;-->
+<!--    }-->
+<!--    #id{-->
+<!--      color:blue;-->
+<!--    }-->
+<!--    .class{-->
+<!--      color:yellow;-->
+<!--    }-->
+<!--  </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--  <div class="hello-div" id="helloDiv" style="color:red">-->
+<!--    hello-->
+<!--  </div>-->
+
+<!--  <div>-->
+<!--    <p id="id" class="class">-->
+<!--      1. 이 글자는 어떤 색일까요?-->
+<!--    </p>-->
+<!--    <p id="id" class="class" style="color:red">-->
+<!--      2. 이 글자는 어떤 색일까요??-->
+<!--    </p>-->
+<!--  </div>-->
+
+
+<!--</body>-->
+<!--</html>-->
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="ko-KR">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>선택자 우선순위 점수</title>-->
+<!--    <link rel="stylesheet" href="">-->
+<!--    <style>-->
+<!--        section{-->
+<!--            color: pink;-->
+<!--        }-->
+<!--        /* 클래스 + 유형 선택자 */-->
+<!--        .ul a {-->
+<!--            color: yellow;-->
+<!--        }-->
+
+<!--        /* 클래스 선택자 */-->
+<!--        .click {-->
+<!--            color: green !important;-->
+<!--            background: black !important;-->
+<!--        }-->
+
+<!--        .click {-->
+<!--            color: red !important;-->
+<!--            background: black !important;-->
+<!--        }-->
+
+<!--        /* 유형 선택자 */-->
+<!--        html body main section article div ul li p strong span a {-->
+<!--            background: purple;-->
+<!--            color: blue;-->
+<!--        }-->
+<!--    </style>-->
+<!--</head>-->
+<!--<body>-->
+<!--<main>-->
+<!--    <section>-->
+<!--        hello!!!!!!-->
+<!--        <article>-->
+<!--            <div>-->
+<!--                <ul class="ul">-->
+<!--                    <li>-->
+<!--                        <p>-->
+<!--                            <strong>-->
+<!--										<span>-->
+<!--	                    <a href="#" class="click">-->
+<!--	                      1. 이 글자는 어떤 색일까요?-->
+<!--	                      2. 배경색은 어떤 색일까요?-->
+<!--	                    </a>-->
+<!--	                  </span>-->
+<!--                            </strong>-->
+<!--                        </p>-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+<!--        </article>-->
+<!--    </section>-->
+<!--</main>-->
+<!--</body>-->
+<!--</html>-->

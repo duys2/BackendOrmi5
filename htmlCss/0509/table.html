@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <caption>나의 식사 메뉴</caption>
+        <thead>
+            <tr>
+                <th>아침</th>
+                <th>점심</th>
+                <th>저녁</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">해장국</td>
+                <!--<td>피자</td>-->
+                <td rowspan="2">치킨</td>
+            </tr>
+            <tr>
+                <td colspan="2">해장국</td>
+                <!--<td>피자</td>-->
+                <!--<td>치킨</td>-->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>좀 짜다</td>
+                <td>치즈가 좋다</td>
+                <td>칼로리가 높다</td>
+            </tr>
+        </tfoot>
+    </table>
+    <table>
+        <caption>Superheros and sidekicks</caption>
+        <colgroup>
+            <col>
+            <col span="2" class="batman">
+            <col span="2" class="flash">
+        </colgroup>
+        <tr>
+            <!-- &nbsp; 공백 문자 -->
+            <td>&nbsp;</td>
+            <th scope="col">Batman</th>
+            <th scope="col">Robin</th>
+            <th scope="col">The Flash</th>
+            <th scope="col">Kid Flash</th>
+        </tr>
+        <tr>
+            <th scope="row">Skill</th>
+            <td>Smarts</td>
+            <td>Dex, acrobat</td>
+            <td>Super speed</td>
+            <td>Super speed</td>
+        </tr>
+    </table>
+</body>
+</html>

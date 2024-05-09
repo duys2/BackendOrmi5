@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 스타일 적용</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        /* h1{ color:red; }
+        h2{ color:red; }
+        p { color:red; } */
+        /* ↓ 리펙토링 */
+        /* h1, h2, p { color: red; } */
+        /* div { color: red; } */
+        div {
+            color: red;
+            border: 5px solid pink;
+        }
+        h1 { border: inherit; }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- <h1 style="color:red;">Hello</h1>
+        <h2 style="color:red;">Hello</h2>
+        <p style="color:red;">Hello</p> -->
+        <h1>Hello</h1>
+        <h2>Hello</h2>
+        <p>Hello</p>
+    </div>
+</body>
+</html>
