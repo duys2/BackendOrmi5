@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
 @font-face {
     font-family: 'GmarketSansMedium';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
@@ -11,6 +13,87 @@
 }
 
 body {
+    /* 폰트 적용 */
+    /* font-family: 'GmarketSansMedium', sans-serif; */
+    font-family: Gmarket Sans;
+    color: white;
     background-color: #5B2386;
-    font-family: 'GmarketSansMedium', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-front {
+    position: absolute;
+    z-index: 10;
+    top: 273px;
+    left: 678px;
+}
+
+.header-back {
+    position: absolute;
+    top: 199px;
+    left: 830px;
+}
+
+.title {
+    position: absolute;
+    width: 486px;
+    height: 40px;
+    top: 510px;
+    left: 717px;
+
+    color: #F5DF4D;
+    font-family: 'tvN Enjoystories';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 39.6px;
+}
+
+.description {
+    display: flex;
+    position: absolute;
+    /* width: 373px; */
+    height: 85px;
+    top: 628px;
+    left: 680px;
+    /* left: 774px; */
+
+    font-family: Gmarket Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.description>span {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+.double-quotation-marks {
+    position: absolute;
+    top: 641px;
+}
+
+.double-quotation-marks>img:first-child {
+    position: absolute;
+    left: 714px;
+}
+
+.double-quotation-marks>img:last-child {
+    position: absolute;
+    left: 1161px;
+}
+
+
+footer>p {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.38px;
+    text-align: center;
 }
