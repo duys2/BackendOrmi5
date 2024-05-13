@@ -18,9 +18,7 @@ body {
     font-family: Gmarket Sans;
     color: white;
     background-color: #5B2386;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    /* text-align: center; */
 }
 
 .header-front {
@@ -88,6 +86,25 @@ body {
     position: absolute;
     left: 1161px;
 }
+
+input {
+    width: 228px;
+    height: 57px;
+    border-radius: 7px 0px 0px 0px;
+}
+
+.promise {
+    position: absolute;
+    top: 815px;
+    left: 703px;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+
 
 
 footer>p {
