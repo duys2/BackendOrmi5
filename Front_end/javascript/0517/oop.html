@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 객체지향 프로그래밍: Object-Oriented Programming -->
+    <title>OOP</title>
+</head>
+<body>
+    <script>
+        /*
+        const me = {
+            name: '안유석',
+            address: '경산 하양',
+            tel: '010-1234-5678',
+            health: 100,
+            codingLevel: '1',
+            learn: function () {
+                this.codingLevelUp();
+            },
+            running: function () {
+                this.health += 20;
+            },
+            codingLevelUp: function () {
+                this.codingLevel++;
+            }
+        }
+
+        const teacher = {
+            name: '한재현',
+            address: '제주도 제주시 인다 1길',
+            phoneNum: '010-9876-5432',
+            teaching: function (student) {
+                student.codingLevelUp();
+                student.codingLevelUp();
+            }
+        }
+        */
+
+        /*
+        // 위 객체들을 생성자를 통해 구현(수정해야 함)
+        function Factory(name, address, phoneNum) {
+            this.name = name;
+            this.address = address;
+            this.phoneNum = phoneNum;
+        }
+
+        let me = new Factory("Ays", '하양', '010-1234-5678');
+        let teacher = new Factory('HJH', '제주도', '010-9876-5432');
+
+        console.log(me);
+        console.log(teacher);
+        console.log(me.address);
+        */
+
+        // class My {
+        //     constructor(name, address, phoneNum) {
+        //         this.name = name;
+        //         this.address = address;
+        //         this.phoneNum = phoneNum;
+        //     }
+        //
+        //     sayName() {
+        //         console.log(`My Name is ${this.name}`);
+        //     }
+        // }
+
+        // 아래는 강사님 코드
+
+        // const me = {
+        //     name : '한재현',
+        //     address : '제주도 제주시 인다 1길',
+        //     phoneNum : '010-8000-0000',
+        //     canWalk : function(){
+        //         console.log('재현이가 걷는다.');
+        //     },
+        //     teaching : function(student){
+        //         student.levelUp();
+        //     }
+        // }
+        // const ormi = {
+        //     level: 1,
+        //     levelUp : function(){
+        //         this.level++;
+        //     }
+        // }
+        //
+        //
+        // function Me(){
+        //     this.name = '한재현';
+        //     this.address = '제주도 제주시 인다 1길';
+        //     this.phoneNum = '010-8000-0000';
+        // }
+        //
+        // Me.prototype.canWalk = function(){
+        //     console.log('재현이가 걷는다.');
+        // };
+        // Me.prototype.teaching = function(student){
+        //     student.levelUp();
+        // };
+        //
+        // function Ormi(){
+        //     this.level = 1;
+        // }
+        //
+        // Ormi.prototype.levelUp = function(){
+        //     this.level++;
+        // }
+        //
+        // 클래스
+        // class Me{
+        //     constructor() {
+        //         this.name = '한재현';
+        //         this.address = '제주도 제주시 인다 1길';
+        //         this.phoneNum = '010-8000-0000';
+        //     }
+        //
+        //     canWalk(){
+        //         console.log('재현이가 걷는다.');
+        //     }
+        //
+        //     teaching(student){
+        //         student.levelUp();
+        //     }
+        // }
+        //
+        // class Ormi{
+        //     constructor() {
+        //         this.level = 1;
+        //     }
+        //
+        //     levelUp(){
+        //         this.level++;
+        //     }
+        // }
+    </script>
+</body>
+</html>

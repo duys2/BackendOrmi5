@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>while 반복문</title>
+</head>
+<body>
+    <script>
+        /*
+        while (조건식) {
+            // 조건식이 참일 때 실행될 코드
+        }
+        */
+
+        /*
+        let num = 0;
+
+        while (num < 11) {
+          document.write(num, '<br>');
+          num += 1;
+        }
+        */
+
+        /*
+        // do-while 반복문
+        let input;
+
+        do {
+            input = prompt("숫자를 입력하세요.");
+        } while (isNaN(input));
+        // isNaN() : 전달받은 인자가 숫자인지 아닌지 판단하는 함수.
+        // 숫자가 아니면 true, 숫자면 false
+
+        console.log("입력한 숫자는 " + input + "입니다.");
+        */
+
+        // 문제: 1부터 100까지의 숫자 중에서 모든 짝수의 합을 계산하고 출력하는 프로그램을 작성하세요.
+
+        let total = 0;
+
+        /*
+        for (let i = 1; i < 101; i += 2) {
+            total += i;
+        }
+        */
+
+        /*
+        for (let i = 1; i <= 100; i++) {
+            if (i % 2 === 0) total += i;
+        }
+        */
+
+        let j = 1; // 초기식
+
+        while (j <= 100) {
+            if (j % 2 === 0) total += j;
+
+            j++;
+        }
+
+        document.write(total);
+    </script>
+</body>
+</html>

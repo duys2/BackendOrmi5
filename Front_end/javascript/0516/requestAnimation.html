@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>request animation</title>
+</head>
+<body>
+    <script>
+        function test() {
+            console.log("반복중입니다... ");
+            window.requestAnimationFrame(test);
+        }
+
+        // window는 브라우저, 생략해도 무방
+        window.requestAnimationFrame(test);
+    </script>
+</body>
+</html>
