@@ -27,12 +27,12 @@ button {
     height: 66px;
     border: 0;
     border-radius: 56px;
-    
+
     color: #5B2386;
     font-size: 24px;
     font-weight: 700;
     line-height: 24px;
-    
+
     background-color: #FCEE21;
     box-shadow: 0px 0px 10px 0px #00000080;
 }
@@ -180,4 +180,53 @@ footer>p {
     font-size: 12px;
     font-weight: 400;
     line-height: 17.38px;
+}
+
+.modal-page {
+    width: 800px;
+    height: 800px;
+
+    padding-top: 76px;
+
+    font-family: tvN Enjoystories;
+    text-align: center;
+
+    color: #5B2386;
+    background-color: white;
+
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px #00000080;
+
+    position: absolute;
+    top: 40vh;
+    left: 570px;
+
+    display: none;
+}
+
+.modal-page h2 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 105.6px;
+}
+
+.modal-page p {
+    margin-top: 4px;
+
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39.6px;
+}
+
+.modal-page img {
+    margin-top: 29px;
+}
+
+.modal-page .close-modal {
+    width: 508px;
+    margin-top: 74px;
+}
+
+.active {
+    display: block;
 }
