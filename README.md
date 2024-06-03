@@ -1,3 +1,2 @@
 # BackendOrmi5
-# Hello, World!
-# 나의 GitHub
+## 백엔드 부트캠프 오르미 5기
